@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02311CCD633646EFBBC8FDE8 /* AddPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F04B2D9A7743B4846CD2D8 /* AddPaymentViewController.swift */; };
+		026F34DEA1774DAF8D591004 /* CreditPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC788CFA67043D085B7551A /* CreditPlanCell.swift */; };
+		03AC8B4168444ECEAC510BC8 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDC3C113A446AB943FF277 /* APIError.swift */; };
+		10D9B43FC9EB4ACF988872B7 /* CreditPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026F7B9200945F59F2B4EB7 /* CreditPlan.swift */; };
+		13AD268831CD423FB6A6CBFC /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBE70225C04147944480AA /* APIClient.swift */; };
+		195A096D9CCD49A7AD493B30 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5B3404DAB2477EB62870AD /* EmptyStateView.swift */; };
+		1FE85ACA28964E4696E2F336 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C881D43DD74FB1A373D214 /* DateFormatting.swift */; };
+		2542E416A61F4CE3901DA57E /* GlobalSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19CEB16399409AAB22F9CB /* GlobalSearchResultsViewController.swift */; };
+		28E3E62A3DE44AEE93E0DAC9 /* CustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F0614313042F587FCEA99 /* CustomersViewController.swift */; };
+		2A32AADF20634AD1B434F296 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CCDBF6673A4486806FCC74 /* SceneDelegate.swift */; };
+		3281B4843E934CFF8A0C314B /* AddEditLaptopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C210764763634BEC89DF4546 /* AddEditLaptopViewController.swift */; };
+		331B9CA64E00451DB5523617 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4861F63270B14B7A9608231E /* Validation.swift */; };
+		33E9FF266ADC4617BB74AD23 /* SceneConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ACC13FABD44DBD974FD26D /* SceneConfiguration.swift */; };
+		3A4EE2E77AD3474693B305AB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6B973A44645C7A4058F03 /* User.swift */; };
+		3A9FA3920ED74D10B752E659 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19FFC50C276496AA87E685E /* FormTextField.swift */; };
+		3AF346EDAF334850AD1C8ED2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2618A82A84C63996EF5CB /* AuthService.swift */; };
+		3C14AD0C86184CB78CA23583 /* CreditDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ADE2F92C614F948EDC4757 /* CreditDetailsViewController.swift */; };
+		3E3512D74A9744E880942A80 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DECFF316274EF498215547 /* Logger.swift */; };
+		49B306F72D3E4982A608D514 /* StoreSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922242E6A51453685FA8BD0 /* StoreSettings.swift */; };
+		4A07870D9D2043E0A621DE6F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BCF01FDBA54909A8F748DB /* SettingsViewController.swift */; };
+		4B74B49CE8EC4EF1BA2BF2BC /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860511BD1E0C4E938DBF7994 /* Sale.swift */; };
+		553725FE0E67432BA6E954A8 /* ShopkeeperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629DEB519AA48EAAD0AE16A /* ShopkeeperService.swift */; };
+		58248ABE697A48E58C5C9C4F /* PaymentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D643D3D76431889D42922 /* PaymentHistoryViewController.swift */; };
+		5D9711F0535549B2B4D620B0 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8642E185681C4FB68B92D559 /* PaymentService.swift */; };
+		5E51B6A8950041C0861E8D5F /* InventoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EC63EB6F154B3C86046EBB /* InventoryService.swift */; };
+		63E90A90315B4BA19271A44C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2EC008404A4206BA51A7A5 /* AppDelegate.swift */; };
+		66F5CF82AC33438EB92C4F9F /* ReportDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3DFD044BD46168F165862 /* ReportDetailsViewController.swift */; };
+		687C517119404DFA92ACD464 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124707D857041E887A0E70B /* NotificationService.swift */; };
+		6B98CE6C209742D1BC6DC302 /* ReportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1207235613480DB8B466A6 /* ReportService.swift */; };
+		6BC676EB960B4AF98AFA755F /* StoreProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADAEAF78E646FBBE0B39B4 /* StoreProfileViewController.swift */; };
+		6DA9AA590AD5463DA36F7D90 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D66AB916013467C8F342B59 /* Report.swift */; };
+		704F2F7BAA9040F0B008D0EB /* PDFBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F679CFA37447997DBD3D8 /* PDFBuilder.swift */; };
+		72C17C4CB09B4C5EA79B8C43 /* AuditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54859506DA0E4FD2AE9E0DC4 /* AuditService.swift */; };
+		7A9F732501524BE9BB56EF6C /* AuditLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197CF8F8E544999AB17C682 /* AuditLog.swift */; };
+		7ADD7915D3884C269D377382 /* ShopkeepersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D798281D846DEBBA314F6 /* ShopkeepersViewController.swift */; };
+		7C21190668B647869E29E597 /* StoreSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9184DE44C04E46568886F855 /* StoreSettingsService.swift */; };
+		8131BD0E657E41AA93D13192 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4DF410833B4346A9F8BF03 /* APIConfig.swift */; };
+		8683BD45E2EA49C080E30573 /* LaptopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F792F347E4674BA5E49C2 /* LaptopCell.swift */; };
+		88575F10C14A42C1B438BE7B /* LaptopDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC9053605E4A879B32764D /* LaptopDetailsViewController.swift */; };
+		8DBE6DE28EC34F9F89292A62 /* ReceiptSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595C562CF0D2496D93D17F88 /* ReceiptSearchViewController.swift */; };
+		937F481CFDC24A489E27DA29 /* SalesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BA1413A8F048C892135EE5 /* SalesService.swift */; };
+		9AEBE50389904A9F8DAC42FB /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D550265C045C1B987FD1B /* NotificationModel.swift */; };
+		A6E75375410C43E2A080F72A /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CC3ACE6762411E97836F03 /* KeychainManager.swift */; };
+		A76ED67F91384F9DB32A139A /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603E388F685146C5BC1CFBDF /* InventoryViewController.swift */; };
+		AB934C01818A435C9DA57339 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83192CD6D61D4DBDAF12F288 /* AppState.swift */; };
+		B1B7D5EED785460C8EC61BFD /* AddEditCreditPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933ED755E8D54119AEF90A81 /* AddEditCreditPlanViewController.swift */; };
+		B7C76B395B7641418C181398 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC683986DD4B89BB855427 /* DashboardViewController.swift */; };
+		B8620286CFD647228746E34F /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8F317183748CBA98069B1 /* CurrencyFormatter.swift */; };
+		5F3E79DF0D22D227C96509F5 /* KeyboardAvoidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A5015D1A39C192C3EEFB77 /* KeyboardAvoidance.swift */; };
+		A1B2C3D4E5F60708192A3B4C /* InactivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60708192A3B4D /* InactivityMonitor.swift */; };
+		A1B2C3D4E5F60708192A3B4E /* ErrorPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60708192A3B4F /* ErrorPresentation.swift */; };
+		B94FD4E13AB3482A9074AFA4 /* BusinessRulesPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3826A46D1452C940E5697 /* BusinessRulesPreviewTests.swift */; };
+		BB4C9930C6CE471DA7741373 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA3C541F9A4EBF99716D69 /* UsersViewController.swift */; };
+		BF146AB3EB5D4E37B8791EA7 /* Laptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE229DC1A0848FAAE863ECB /* Laptop.swift */; };
+		C1AD707565F846B89124DBD6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F51C89AD545AF9D30A50E /* Person.swift */; };
+		C4A5F8497CF640AF85A7E290 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28404C4EC3E044F8A5F63532 /* NotificationsViewController.swift */; };
+		CB9EE2F4C00443BE8D8A22D9 /* DashboardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E506FDA22842446F812954DF /* DashboardCardView.swift */; };
+		CE33E6C8FE2E44EA9CDE2B29 /* CustomerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5140D0B2CE4D82AF45BD4A /* CustomerService.swift */; };
+		CEE67CC79FB04F538EA45200 /* NewSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C905EFEFF21D4B62B7B13025 /* NewSaleViewController.swift */; };
+		D7A5043356B44140930F6440 /* BillPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50320CB18E0C4A24A48F902B /* BillPreviewViewController.swift */; };
+		D8BDC1186BA049F99E05A474 /* AuditLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDBA61A752E473D99DC308B /* AuditLogViewController.swift */; };
+		E3D0179F7FA54E53BC56352F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052AF62075247A1A6260ECC /* LoginViewController.swift */; };
+		E66F5FB4C6264D6484DB2269 /* AddEditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B21AC284E745EEA822EF0D /* AddEditUserViewController.swift */; };
+		EE3EF65946D748FBBE0F71D5 /* CustomerSaleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802BCD7179BF4B6C83BB91AF /* CustomerSaleDetailsViewController.swift */; };
+		F2C4327E3A484E32B7B51CAB /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6878F427E754F198A6FA331 /* ReportsViewController.swift */; };
+		FAB09246692F4BA79E9835A3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2A189DC8243E6AB215D78 /* UserService.swift */; };
+		FD1183CBE8AB47FA90572372 /* SaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780C672C790436A988FBC7F /* SaleCell.swift */; };
+		E888B7C8C20FD3374FD8A31D /* ShopkeeperDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BFC2DC8B6A3DF9F6871D01 /* ShopkeeperDetailViewController.swift */; };
+		79FCAB4DF90DB11A835E0A66 /* PickInventoryLaptopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E541DF4227635E0A5342EB9 /* PickInventoryLaptopViewController.swift */; };
+		44DC94CC082BA736C76ADDAA /* AddShopkeeperExtraMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0616F7AD38FD510BAB77EDF3 /* AddShopkeeperExtraMoneyViewController.swift */; };
+		A4B5E431CFCD636BCBA74E09 /* AddShopkeeperLaptopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23E7CAF83C5B23D1C76932 /* AddShopkeeperLaptopViewController.swift */; };
+		0C9C56DF6BAA997626EFFBB7 /* AddShopkeeperPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FE8C60A8C2C377A9D13FD /* AddShopkeeperPaymentViewController.swift */; };
+		B2C3D4E5F60708192A3B4A1 /* EditSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F60708192A3B4A2 /* EditSaleViewController.swift */; };
+		72D4F818280A16EA9E4FF00B /* AddShopkeeperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D617F217CFC979EF98513 /* AddShopkeeperViewController.swift */; };
+		F5F64D154D33D4C821E703E4 /* PickShopkeeperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF97804304951D4EE49F7B /* PickShopkeeperViewController.swift */; };
+		206E14025E0CBCD466333BFA /* ShopkeeperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DBD7960671ACC58141AABA /* ShopkeeperCell.swift */; };
+		842F6E2D3920D7B44D461A77 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F992F326BA9BA9753B2DEF1 /* Theme.swift */; };
+		44C577390394AAADA1A34D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884ECAB26B8609AAED24D5BB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11CCE149B52F48ECBC7217AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259453DA0A1649F18F593C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBDB76B3795D44248371E592;
+			remoteInfo = WaqareMedinaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C19CEB16399409AAB22F9CB /* GlobalSearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSearchResultsViewController.swift; sourceTree = "<group>"; };
+		0EC8F317183748CBA98069B1 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		11A5015D1A39C192C3EEFB77 /* KeyboardAvoidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidance.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60708192A3B4D /* InactivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactivityMonitor.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60708192A3B4F /* ErrorPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresentation.swift; sourceTree = "<group>"; };
+		101D98ACC01E4CEDA2E9895C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1052AF62075247A1A6260ECC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		12CC3ACE6762411E97836F03 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		19DDC3C113A446AB943FF277 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		1EDBA61A752E473D99DC308B /* AuditLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditLogViewController.swift; sourceTree = "<group>"; };
+		1FDC9053605E4A879B32764D /* LaptopDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopDetailsViewController.swift; sourceTree = "<group>"; };
+		2026F7B9200945F59F2B4EB7 /* CreditPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditPlan.swift; sourceTree = "<group>"; };
+		21CCDBF6673A4486806FCC74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28404C4EC3E044F8A5F63532 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		2BEDC492F4394967A4303CB0 /* WaqareMedinaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaqareMedinaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5140D0B2CE4D82AF45BD4A /* CustomerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerService.swift; sourceTree = "<group>"; };
+		361D798281D846DEBBA314F6 /* ShopkeepersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopkeepersViewController.swift; sourceTree = "<group>"; };
+		3629DEB519AA48EAAD0AE16A /* ShopkeeperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopkeeperService.swift; sourceTree = "<group>"; };
+		4405856A93C749AB921E6673 /* WaqareMedinaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaqareMedinaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461F51C89AD545AF9D30A50E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		46B21AC284E745EEA822EF0D /* AddEditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditUserViewController.swift; sourceTree = "<group>"; };
+		4861F63270B14B7A9608231E /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		4E2EC008404A4206BA51A7A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50320CB18E0C4A24A48F902B /* BillPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPreviewViewController.swift; sourceTree = "<group>"; };
+		54859506DA0E4FD2AE9E0DC4 /* AuditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditService.swift; sourceTree = "<group>"; };
+		57E2A189DC8243E6AB215D78 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		595C562CF0D2496D93D17F88 /* ReceiptSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptSearchViewController.swift; sourceTree = "<group>"; };
+		5AC788CFA67043D085B7551A /* CreditPlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditPlanCell.swift; sourceTree = "<group>"; };
+		603E388F685146C5BC1CFBDF /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		60EC63EB6F154B3C86046EBB /* InventoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryService.swift; sourceTree = "<group>"; };
+		68A6B973A44645C7A4058F03 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6A8D550265C045C1B987FD1B /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		75B2618A82A84C63996EF5CB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		802BCD7179BF4B6C83BB91AF /* CustomerSaleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSaleDetailsViewController.swift; sourceTree = "<group>"; };
+		81ADE2F92C614F948EDC4757 /* CreditDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditDetailsViewController.swift; sourceTree = "<group>"; };
+		82F04B2D9A7743B4846CD2D8 /* AddPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentViewController.swift; sourceTree = "<group>"; };
+		83192CD6D61D4DBDAF12F288 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		860511BD1E0C4E938DBF7994 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		8642E185681C4FB68B92D559 /* PaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		88DBE70225C04147944480AA /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8D66AB916013467C8F342B59 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		8EEC683986DD4B89BB855427 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		9184DE44C04E46568886F855 /* StoreSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreSettingsService.swift; sourceTree = "<group>"; };
+		91ACC13FABD44DBD974FD26D /* SceneConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneConfiguration.swift; sourceTree = "<group>"; };
+		933ED755E8D54119AEF90A81 /* AddEditCreditPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCreditPlanViewController.swift; sourceTree = "<group>"; };
+		9780C672C790436A988FBC7F /* SaleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCell.swift; sourceTree = "<group>"; };
+		9E1F792F347E4674BA5E49C2 /* LaptopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopCell.swift; sourceTree = "<group>"; };
+		A19FFC50C276496AA87E685E /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		B3BCF01FDBA54909A8F748DB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B4B3DFD044BD46168F165862 /* ReportDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDetailsViewController.swift; sourceTree = "<group>"; };
+		B4BA1413A8F048C892135EE5 /* SalesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesService.swift; sourceTree = "<group>"; };
+		B70D643D3D76431889D42922 /* PaymentHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHistoryViewController.swift; sourceTree = "<group>"; };
+		C210764763634BEC89DF4546 /* AddEditLaptopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditLaptopViewController.swift; sourceTree = "<group>"; };
+		C8C881D43DD74FB1A373D214 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		C905EFEFF21D4B62B7B13025 /* NewSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSaleViewController.swift; sourceTree = "<group>"; };
+		C922242E6A51453685FA8BD0 /* StoreSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreSettings.swift; sourceTree = "<group>"; };
+		C97F679CFA37447997DBD3D8 /* PDFBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFBuilder.swift; sourceTree = "<group>"; };
+		CC5B3404DAB2477EB62870AD /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		D197CF8F8E544999AB17C682 /* AuditLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditLog.swift; sourceTree = "<group>"; };
+		D6878F427E754F198A6FA331 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		D9DECFF316274EF498215547 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DCC3826A46D1452C940E5697 /* BusinessRulesPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRulesPreviewTests.swift; sourceTree = "<group>"; };
+		E506FDA22842446F812954DF /* DashboardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardView.swift; sourceTree = "<group>"; };
+		E87F0614313042F587FCEA99 /* CustomersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersViewController.swift; sourceTree = "<group>"; };
+		EC4DF410833B4346A9F8BF03 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		ECE229DC1A0848FAAE863ECB /* Laptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laptop.swift; sourceTree = "<group>"; };
+		EEADAEAF78E646FBBE0B39B4 /* StoreProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreProfileViewController.swift; sourceTree = "<group>"; };
+		F124707D857041E887A0E70B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		FCFA3C541F9A4EBF99716D69 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		FD1207235613480DB8B466A6 /* ReportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportService.swift; sourceTree = "<group>"; };
+		E8BFC2DC8B6A3DF9F6871D01 /* ShopkeeperDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopkeeperDetailViewController.swift; sourceTree = "<group>"; };
+		8E541DF4227635E0A5342EB9 /* PickInventoryLaptopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickInventoryLaptopViewController.swift; sourceTree = "<group>"; };
+		0616F7AD38FD510BAB77EDF3 /* AddShopkeeperExtraMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShopkeeperExtraMoneyViewController.swift; sourceTree = "<group>"; };
+		FE23E7CAF83C5B23D1C76932 /* AddShopkeeperLaptopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShopkeeperLaptopViewController.swift; sourceTree = "<group>"; };
+		9D8FE8C60A8C2C377A9D13FD /* AddShopkeeperPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShopkeeperPaymentViewController.swift; sourceTree = "<group>"; };
+		B2C3D4E5F60708192A3B4A2 /* EditSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSaleViewController.swift; sourceTree = "<group>"; };
+		533D617F217CFC979EF98513 /* AddShopkeeperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShopkeeperViewController.swift; sourceTree = "<group>"; };
+		78FF97804304951D4EE49F7B /* PickShopkeeperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickShopkeeperViewController.swift; sourceTree = "<group>"; };
+		16DBD7960671ACC58141AABA /* ShopkeeperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopkeeperCell.swift; sourceTree = "<group>"; };
+		0F992F326BA9BA9753B2DEF1 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		884ECAB26B8609AAED24D5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		343FAC321E0B4DA795748F2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD226761C3C416B96EA7638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190F7E9D680D405F90A42BDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				101D98ACC01E4CEDA2E9895C /* Info.plist */,
+				884ECAB26B8609AAED24D5BB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		26659DD80F984E209EE6002D = {
+			isa = PBXGroup;
+			children = (
+				5C4061FF16A54D0EA853C7A4 /* WaqareMedinaApp */,
+				495AB1A536EC4E18A8DA1B7E /* Tests */,
+				C2CCBF8B8BE0403EA50363F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C1CE334FB1B4713B0B3EFE5 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				83192CD6D61D4DBDAF12F288 /* AppState.swift */,
+				12CC3ACE6762411E97836F03 /* KeychainManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		495AB1A536EC4E18A8DA1B7E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3826A46D1452C940E5697 /* BusinessRulesPreviewTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4E9024D851004B2DBC95FA06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D197CF8F8E544999AB17C682 /* AuditLog.swift */,
+				2026F7B9200945F59F2B4EB7 /* CreditPlan.swift */,
+				ECE229DC1A0848FAAE863ECB /* Laptop.swift */,
+				6A8D550265C045C1B987FD1B /* NotificationModel.swift */,
+				461F51C89AD545AF9D30A50E /* Person.swift */,
+				8D66AB916013467C8F342B59 /* Report.swift */,
+				860511BD1E0C4E938DBF7994 /* Sale.swift */,
+				C922242E6A51453685FA8BD0 /* StoreSettings.swift */,
+				68A6B973A44645C7A4058F03 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C4061FF16A54D0EA853C7A4 /* WaqareMedinaApp */ = {
+			isa = PBXGroup;
+			children = (
+				C9C79113093A456293C835DB /* App */,
+				4E9024D851004B2DBC95FA06 /* Models */,
+				C10C5F2B25A443E2BC6B191F /* Networking */,
+				190F7E9D680D405F90A42BDF /* Resources */,
+				ED1E74446BEE405B9C28BA07 /* Services */,
+				2C1CE334FB1B4713B0B3EFE5 /* Storage */,
+				6858AD19AA1E4FA980721BF3 /* Utilities */,
+				EB1A34A5E9E74671AB13B7E5 /* ViewControllers */,
+				72290BC753F54CA4A9CBA42C /* Views */,
+			);
+			path = WaqareMedinaApp;
+			sourceTree = "<group>";
+		};
+		6858AD19AA1E4FA980721BF3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0EC8F317183748CBA98069B1 /* CurrencyFormatter.swift */,
+				11A5015D1A39C192C3EEFB77 /* KeyboardAvoidance.swift */,
+				C8C881D43DD74FB1A373D214 /* DateFormatting.swift */,
+				D9DECFF316274EF498215547 /* Logger.swift */,
+				C97F679CFA37447997DBD3D8 /* PDFBuilder.swift */,
+				0F992F326BA9BA9753B2DEF1 /* Theme.swift */,
+				4861F63270B14B7A9608231E /* Validation.swift */,
+				A1B2C3D4E5F60708192A3B4D /* InactivityMonitor.swift */,
+				A1B2C3D4E5F60708192A3B4F /* ErrorPresentation.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		72290BC753F54CA4A9CBA42C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AC788CFA67043D085B7551A /* CreditPlanCell.swift */,
+				E506FDA22842446F812954DF /* DashboardCardView.swift */,
+				CC5B3404DAB2477EB62870AD /* EmptyStateView.swift */,
+				A19FFC50C276496AA87E685E /* FormTextField.swift */,
+				9E1F792F347E4674BA5E49C2 /* LaptopCell.swift */,
+				9780C672C790436A988FBC7F /* SaleCell.swift */,
+				16DBD7960671ACC58141AABA /* ShopkeeperCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C10C5F2B25A443E2BC6B191F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				88DBE70225C04147944480AA /* APIClient.swift */,
+				EC4DF410833B4346A9F8BF03 /* APIConfig.swift */,
+				19DDC3C113A446AB943FF277 /* APIError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C2CCBF8B8BE0403EA50363F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4405856A93C749AB921E6673 /* WaqareMedinaApp.app */,
+				2BEDC492F4394967A4303CB0 /* WaqareMedinaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C79113093A456293C835DB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4E2EC008404A4206BA51A7A5 /* AppDelegate.swift */,
+				91ACC13FABD44DBD974FD26D /* SceneConfiguration.swift */,
+				21CCDBF6673A4486806FCC74 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EB1A34A5E9E74671AB13B7E5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				933ED755E8D54119AEF90A81 /* AddEditCreditPlanViewController.swift */,
+				C210764763634BEC89DF4546 /* AddEditLaptopViewController.swift */,
+				46B21AC284E745EEA822EF0D /* AddEditUserViewController.swift */,
+				82F04B2D9A7743B4846CD2D8 /* AddPaymentViewController.swift */,
+				FE23E7CAF83C5B23D1C76932 /* AddShopkeeperLaptopViewController.swift */,
+				9D8FE8C60A8C2C377A9D13FD /* AddShopkeeperPaymentViewController.swift */,
+				B2C3D4E5F60708192A3B4A2 /* EditSaleViewController.swift */,
+				533D617F217CFC979EF98513 /* AddShopkeeperViewController.swift */,
+				1EDBA61A752E473D99DC308B /* AuditLogViewController.swift */,
+				50320CB18E0C4A24A48F902B /* BillPreviewViewController.swift */,
+				81ADE2F92C614F948EDC4757 /* CreditDetailsViewController.swift */,
+				802BCD7179BF4B6C83BB91AF /* CustomerSaleDetailsViewController.swift */,
+				E87F0614313042F587FCEA99 /* CustomersViewController.swift */,
+				8EEC683986DD4B89BB855427 /* DashboardViewController.swift */,
+				0C19CEB16399409AAB22F9CB /* GlobalSearchResultsViewController.swift */,
+				603E388F685146C5BC1CFBDF /* InventoryViewController.swift */,
+				1FDC9053605E4A879B32764D /* LaptopDetailsViewController.swift */,
+				1052AF62075247A1A6260ECC /* LoginViewController.swift */,
+				C905EFEFF21D4B62B7B13025 /* NewSaleViewController.swift */,
+				28404C4EC3E044F8A5F63532 /* NotificationsViewController.swift */,
+				B70D643D3D76431889D42922 /* PaymentHistoryViewController.swift */,
+				78FF97804304951D4EE49F7B /* PickShopkeeperViewController.swift */,
+				595C562CF0D2496D93D17F88 /* ReceiptSearchViewController.swift */,
+				B4B3DFD044BD46168F165862 /* ReportDetailsViewController.swift */,
+				D6878F427E754F198A6FA331 /* ReportsViewController.swift */,
+				B3BCF01FDBA54909A8F748DB /* SettingsViewController.swift */,
+				E8BFC2DC8B6A3DF9F6871D01 /* ShopkeeperDetailViewController.swift */,
+				8E541DF4227635E0A5342EB9 /* PickInventoryLaptopViewController.swift */,
+				0616F7AD38FD510BAB77EDF3 /* AddShopkeeperExtraMoneyViewController.swift */,
+				361D798281D846DEBBA314F6 /* ShopkeepersViewController.swift */,
+				EEADAEAF78E646FBBE0B39B4 /* StoreProfileViewController.swift */,
+				FCFA3C541F9A4EBF99716D69 /* UsersViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED1E74446BEE405B9C28BA07 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				54859506DA0E4FD2AE9E0DC4 /* AuditService.swift */,
+				75B2618A82A84C63996EF5CB /* AuthService.swift */,
+				2E5140D0B2CE4D82AF45BD4A /* CustomerService.swift */,
+				60EC63EB6F154B3C86046EBB /* InventoryService.swift */,
+				F124707D857041E887A0E70B /* NotificationService.swift */,
+				8642E185681C4FB68B92D559 /* PaymentService.swift */,
+				FD1207235613480DB8B466A6 /* ReportService.swift */,
+				B4BA1413A8F048C892135EE5 /* SalesService.swift */,
+				3629DEB519AA48EAAD0AE16A /* ShopkeeperService.swift */,
+				9184DE44C04E46568886F855 /* StoreSettingsService.swift */,
+				57E2A189DC8243E6AB215D78 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39621B84FF8547A39AF8E6C4 /* WaqareMedinaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D13A3A6E2740978EFC2DB7 /* Build configuration list for PBXNativeTarget "WaqareMedinaAppTests" */;
+			buildPhases = (
+				B4BFDB3312614B7EAADAE08E /* Sources */,
+				CCD226761C3C416B96EA7638 /* Frameworks */,
+				3182D6507B9243C2A1A71273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E7ABFA9794D4C59B4905651 /* PBXTargetDependency */,
+			);
+			name = WaqareMedinaAppTests;
+			productName = WaqareMedinaAppTests;
+			productReference = 2BEDC492F4394967A4303CB0 /* WaqareMedinaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBDB76B3795D44248371E592 /* WaqareMedinaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C42307A912149EC870FD769 /* Build configuration list for PBXNativeTarget "WaqareMedinaApp" */;
+			buildPhases = (
+				61FCFB963CFF406695E75E82 /* Sources */,
+				343FAC321E0B4DA795748F2B /* Frameworks */,
+				B2B65BC8916E4473BC2984BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaqareMedinaApp;
+			productName = WaqareMedinaApp;
+			productReference = 4405856A93C749AB921E6673 /* WaqareMedinaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259453DA0A1649F18F593C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					39621B84FF8547A39AF8E6C4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DBDB76B3795D44248371E592;
+					};
+					DBDB76B3795D44248371E592 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = A9D4FF560D7E4123B1A18718 /* Build configuration list for PBXProject "WaqareMedinaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26659DD80F984E209EE6002D;
+			productRefGroup = C2CCBF8B8BE0403EA50363F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBDB76B3795D44248371E592 /* WaqareMedinaApp */,
+				39621B84FF8547A39AF8E6C4 /* WaqareMedinaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3182D6507B9243C2A1A71273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B65BC8916E4473BC2984BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C577390394AAADA1A34D29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61FCFB963CFF406695E75E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E90A90315B4BA19271A44C /* AppDelegate.swift in Sources */,
+				33E9FF266ADC4617BB74AD23 /* SceneConfiguration.swift in Sources */,
+				2A32AADF20634AD1B434F296 /* SceneDelegate.swift in Sources */,
+				7A9F732501524BE9BB56EF6C /* AuditLog.swift in Sources */,
+				10D9B43FC9EB4ACF988872B7 /* CreditPlan.swift in Sources */,
+				BF146AB3EB5D4E37B8791EA7 /* Laptop.swift in Sources */,
+				9AEBE50389904A9F8DAC42FB /* NotificationModel.swift in Sources */,
+				C1AD707565F846B89124DBD6 /* Person.swift in Sources */,
+				6DA9AA590AD5463DA36F7D90 /* Report.swift in Sources */,
+				4B74B49CE8EC4EF1BA2BF2BC /* Sale.swift in Sources */,
+				49B306F72D3E4982A608D514 /* StoreSettings.swift in Sources */,
+				3A4EE2E77AD3474693B305AB /* User.swift in Sources */,
+				13AD268831CD423FB6A6CBFC /* APIClient.swift in Sources */,
+				8131BD0E657E41AA93D13192 /* APIConfig.swift in Sources */,
+				03AC8B4168444ECEAC510BC8 /* APIError.swift in Sources */,
+				72C17C4CB09B4C5EA79B8C43 /* AuditService.swift in Sources */,
+				3AF346EDAF334850AD1C8ED2 /* AuthService.swift in Sources */,
+				CE33E6C8FE2E44EA9CDE2B29 /* CustomerService.swift in Sources */,
+				5E51B6A8950041C0861E8D5F /* InventoryService.swift in Sources */,
+				687C517119404DFA92ACD464 /* NotificationService.swift in Sources */,
+				5D9711F0535549B2B4D620B0 /* PaymentService.swift in Sources */,
+				6B98CE6C209742D1BC6DC302 /* ReportService.swift in Sources */,
+				937F481CFDC24A489E27DA29 /* SalesService.swift in Sources */,
+				553725FE0E67432BA6E954A8 /* ShopkeeperService.swift in Sources */,
+				7C21190668B647869E29E597 /* StoreSettingsService.swift in Sources */,
+				FAB09246692F4BA79E9835A3 /* UserService.swift in Sources */,
+				AB934C01818A435C9DA57339 /* AppState.swift in Sources */,
+				A6E75375410C43E2A080F72A /* KeychainManager.swift in Sources */,
+				B8620286CFD647228746E34F /* CurrencyFormatter.swift in Sources */,
+				5F3E79DF0D22D227C96509F5 /* KeyboardAvoidance.swift in Sources */,
+				A1B2C3D4E5F60708192A3B4C /* InactivityMonitor.swift in Sources */,
+				A1B2C3D4E5F60708192A3B4E /* ErrorPresentation.swift in Sources */,
+				1FE85ACA28964E4696E2F336 /* DateFormatting.swift in Sources */,
+				3E3512D74A9744E880942A80 /* Logger.swift in Sources */,
+				704F2F7BAA9040F0B008D0EB /* PDFBuilder.swift in Sources */,
+				331B9CA64E00451DB5523617 /* Validation.swift in Sources */,
+				B1B7D5EED785460C8EC61BFD /* AddEditCreditPlanViewController.swift in Sources */,
+				3281B4843E934CFF8A0C314B /* AddEditLaptopViewController.swift in Sources */,
+				E66F5FB4C6264D6484DB2269 /* AddEditUserViewController.swift in Sources */,
+				02311CCD633646EFBBC8FDE8 /* AddPaymentViewController.swift in Sources */,
+				D8BDC1186BA049F99E05A474 /* AuditLogViewController.swift in Sources */,
+				D7A5043356B44140930F6440 /* BillPreviewViewController.swift in Sources */,
+				3C14AD0C86184CB78CA23583 /* CreditDetailsViewController.swift in Sources */,
+				EE3EF65946D748FBBE0F71D5 /* CustomerSaleDetailsViewController.swift in Sources */,
+				28E3E62A3DE44AEE93E0DAC9 /* CustomersViewController.swift in Sources */,
+				B7C76B395B7641418C181398 /* DashboardViewController.swift in Sources */,
+				2542E416A61F4CE3901DA57E /* GlobalSearchResultsViewController.swift in Sources */,
+				A76ED67F91384F9DB32A139A /* InventoryViewController.swift in Sources */,
+				88575F10C14A42C1B438BE7B /* LaptopDetailsViewController.swift in Sources */,
+				E3D0179F7FA54E53BC56352F /* LoginViewController.swift in Sources */,
+				CEE67CC79FB04F538EA45200 /* NewSaleViewController.swift in Sources */,
+				C4A5F8497CF640AF85A7E290 /* NotificationsViewController.swift in Sources */,
+				58248ABE697A48E58C5C9C4F /* PaymentHistoryViewController.swift in Sources */,
+				8DBE6DE28EC34F9F89292A62 /* ReceiptSearchViewController.swift in Sources */,
+				66F5CF82AC33438EB92C4F9F /* ReportDetailsViewController.swift in Sources */,
+				F2C4327E3A484E32B7B51CAB /* ReportsViewController.swift in Sources */,
+				4A07870D9D2043E0A621DE6F /* SettingsViewController.swift in Sources */,
+				7ADD7915D3884C269D377382 /* ShopkeepersViewController.swift in Sources */,
+				6BC676EB960B4AF98AFA755F /* StoreProfileViewController.swift in Sources */,
+				BB4C9930C6CE471DA7741373 /* UsersViewController.swift in Sources */,
+				026F34DEA1774DAF8D591004 /* CreditPlanCell.swift in Sources */,
+				CB9EE2F4C00443BE8D8A22D9 /* DashboardCardView.swift in Sources */,
+				195A096D9CCD49A7AD493B30 /* EmptyStateView.swift in Sources */,
+				3A9FA3920ED74D10B752E659 /* FormTextField.swift in Sources */,
+				8683BD45E2EA49C080E30573 /* LaptopCell.swift in Sources */,
+				FD1183CBE8AB47FA90572372 /* SaleCell.swift in Sources */,
+				E888B7C8C20FD3374FD8A31D /* ShopkeeperDetailViewController.swift in Sources */,
+				79FCAB4DF90DB11A835E0A66 /* PickInventoryLaptopViewController.swift in Sources */,
+				44DC94CC082BA736C76ADDAA /* AddShopkeeperExtraMoneyViewController.swift in Sources */,
+				A4B5E431CFCD636BCBA74E09 /* AddShopkeeperLaptopViewController.swift in Sources */,
+				0C9C56DF6BAA997626EFFBB7 /* AddShopkeeperPaymentViewController.swift in Sources */,
+				B2C3D4E5F60708192A3B4A1 /* EditSaleViewController.swift in Sources */,
+				72D4F818280A16EA9E4FF00B /* AddShopkeeperViewController.swift in Sources */,
+				F5F64D154D33D4C821E703E4 /* PickShopkeeperViewController.swift in Sources */,
+				206E14025E0CBCD466333BFA /* ShopkeeperCell.swift in Sources */,
+				842F6E2D3920D7B44D461A77 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BFDB3312614B7EAADAE08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94FD4E13AB3482A9074AFA4 /* BusinessRulesPreviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E7ABFA9794D4C59B4905651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBDB76B3795D44248371E592 /* WaqareMedinaApp */;
+			targetProxy = 11CCE149B52F48ECBC7217AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B936B6577DA43F28A37232A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR82KTNBT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waqaremedina.app.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaqareMedinaApp.app/WaqareMedinaApp";
+			};
+			name = Debug;
+		};
+		438C7CF179CF483B8CA78BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80A66DAF90C741ACA2E0DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR82KTNBT8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WaqareMedinaApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waqaremedina.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87C9DC2A473747DF9B0D1141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3AE8E185D754D29BEA33FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR82KTNBT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waqaremedina.app.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaqareMedinaApp.app/WaqareMedinaApp";
+			};
+			name = Release;
+		};
+		E4484E1018E249B2801B5EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR82KTNBT8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WaqareMedinaApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waqaremedina.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D13A3A6E2740978EFC2DB7 /* Build configuration list for PBXNativeTarget "WaqareMedinaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B936B6577DA43F28A37232A /* Debug */,
+				B3AE8E185D754D29BEA33FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C42307A912149EC870FD769 /* Build configuration list for PBXNativeTarget "WaqareMedinaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4484E1018E249B2801B5EFD /* Debug */,
+				80A66DAF90C741ACA2E0DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D4FF560D7E4123B1A18718 /* Build configuration list for PBXProject "WaqareMedinaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438C7CF179CF483B8CA78BBB /* Debug */,
+				87C9DC2A473747DF9B0D1141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259453DA0A1649F18F593C42 /* Project object */;
+}
